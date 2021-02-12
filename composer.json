@@ -15,7 +15,10 @@
   "autoload": {
     "files": [
       "registration.php"
-    ]
+    ], 
+    "psr-4": { 
+      "Facebook\\BusinessExtention\\": "" 
+    }
   },
   "require": {
     "facebook/php-business-sdk": "9.0.3"
