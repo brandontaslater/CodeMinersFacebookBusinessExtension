@@ -1,0 +1,26 @@
+{
+  "name": "CodeMiners/FacebookBusinessExtension",
+  "description": "Facebook Business Extension for Magento 2",
+  "type": "library",
+  "license": "GPL",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Code Miners Limited",
+      "email": "hello@codeminers.co.uk",
+      "homepage": "https://www.codeminers.co.uk/",
+      "role": "Company"
+    }
+  ],
+  "require": {
+    "facebook/php-business-sdk": "9.0.3"
+  },
+  "autoload": {
+    "files": [
+        "registration.php"
+    ],
+    "psr-4": {
+        "Facebook\\BusinessExtention\\": ""
+    }
+}
+}
