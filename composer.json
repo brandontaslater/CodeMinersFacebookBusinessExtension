@@ -1,5 +1,5 @@
 {
-  "name": "facebook/businessextension",
+  "name": "Facebook/BusinessExtension",
   "description": "Facebook Business Extension for Magento 2",
   "type": "library",
   "license": "GPL",
@@ -17,7 +17,7 @@
       "registration.php"
     ], 
     "psr-4": { 
-      "facebook\\businessextension\\": "" 
+      "Facebook\\BusinessExtension\\": "" 
     }
   },
   "require": {
