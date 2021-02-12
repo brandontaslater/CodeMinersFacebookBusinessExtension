@@ -1,5 +1,5 @@
 {
-  "name": "CodeMiners/FacebookBusinessExtension",
+  "name": "Facebook/BusinessExtension",
   "description": "Facebook Business Extension for Magento 2",
   "type": "library",
   "license": "GPL",
@@ -14,10 +14,10 @@
   ],
   "autoload": {
     "files": [
-        "BusinessExtention/registration.php"
+        "registration.php"
     ],
     "psr-4": {
-        "Facebook\\BusinessExtention\\": "BusinessExtention/"
+        "Facebook\\BusinessExtention\\": ""
     }
 }
 }
