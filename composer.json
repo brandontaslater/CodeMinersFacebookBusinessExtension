@@ -17,10 +17,10 @@
   },
   "autoload": {
     "files": [
-        "registration.php"
+        "BusinessExtention/registration.php"
     ],
     "psr-4": {
-        "Facebook\\BusinessExtention\\": ""
+        "Facebook\\BusinessExtention\\": "BusinessExtention/"
     }
 }
 }
