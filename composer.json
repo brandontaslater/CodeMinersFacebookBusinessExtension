@@ -12,9 +12,6 @@
       "role": "Company"
     }
   ],
-  "require": {
-    "facebook/php-business-sdk": "9.0.3"
-  },
   "autoload": {
     "files": [
         "BusinessExtention/registration.php"
